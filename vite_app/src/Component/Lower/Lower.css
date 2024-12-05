@@ -1,0 +1,47 @@
+.y1 {
+    border: 2px solid black;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+}
+
+.y2 {
+    display: flex;
+}
+
+.DremingOn {
+    margin-top: 20px;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.M {
+    margin-top: 40px;
+    margin-left: -60px;
+    color: whitesmoke;
+    font-size: 10px;
+    color: gray;
+}
+
+.img12 {
+    height: 75px;
+}
+
+.img13 {
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.img14 {
+    height: 60px;
+    width: 550px;
+    margin-left: 291px;
+}
+
+.img15 {
+    width: 280px;
+    height: 33px;
+    margin-left: 150px;
+    margin-top: 20px;
+}

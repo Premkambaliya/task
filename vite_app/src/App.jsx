@@ -1,13 +1,17 @@
-import { useState } from 'react'
-
-import './style.css'
+import Lowerjsx from './Component/Lower/Lower.jsx'
+import Upperjsx from './Component/Upper/Upper.jsx'
+// import './style.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='container'>
+
+
+    <Upperjsx/>
+    <Lowerjsx/>
+
+      {/* <div className='container'>
         <div className="Spotify">
           <div className="main" />
           <div className='logodiv'>
@@ -228,7 +232,7 @@ function App() {
           <img className="img14" src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Music%20Player%20Options.png?raw=true" alt="" />
           <img className="img15" src="https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/Right%20options.png?raw=true" alt="" />
         </div>
-      </div>
+      </div> */}
 
     </>
   )
