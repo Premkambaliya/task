@@ -17,12 +17,12 @@ function Upper() {
 
   const data2 = [
     { id:"1", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true", title: "WeaklyMotivatio...  ", title1: "Ren Ina Scott" },
-    // { id:"8", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true", title: "WeaklyMotivatio...  ", title1: "Ren Ina Scott" },
+    { id:"8", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image9.png?raw=true", title: "WeaklyMotivatio...  ", title1: "Ren Ina Scott" },
     { id:"2", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image8.png?raw=true", title: "MEDITATION SELF  ", title1: " ibp hussain aleen" },
-    // { id:"3", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image7.png?raw=true", title: "Words beyond act... ", title1: "smual scott" },
+    { id:"3", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image7.png?raw=true", title: "Words beyond act... ", title1: "smual scott" },
     { id:"10", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image7.png?raw=true", title: "Words beyond act... ", title1: "smual scott" },
     { id:"4", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image6.png?raw=true", title: "The Alexa Show ", title1: "adrian tom" },
-    // { id:"5", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true", title: "The Stories of Ma... ", title1: "Leyus" },
+    { id:"5", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true", title: "The Stories of Ma... ", title1: "Leyus" },
     { id:"12", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image5.png?raw=true", title: "The Stories of Ma... ", title1: "Leyus" },
     { id:"6", img: "https://github.com/PatelNeelMahesh/frontend_tasks/blob/main/10.spotify-clone/assets/image10.png?raw=true", title: "Motivation Daily b... ", title1: "Giorgina martha" },
   ];
@@ -264,7 +264,8 @@ function Upper() {
 
 
 
-              {data2              .map((k) => (
+              {data2.filter((p) => p.id % 2 == 0)
+              .map((k) => (
                 <div className="i6">
                   <img src={k.img} alt="" className='img6' /><br />
                   <span className='WeaklyMotivatio'>{k.title}</span>  <br />
