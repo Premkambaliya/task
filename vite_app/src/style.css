@@ -1,0 +1,490 @@
+body {
+    background-color: rgb(27, 26, 26);
+}
+
+.container {
+    display: flex;
+}
+
+.container2 {
+    background-color: rgb(39, 39, 39);
+    width: 87%;
+}
+
+.Spotify {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 500px;
+    background-color: black;
+}
+
+.main {
+    background-color: black;
+    width: 15%;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 37px;
+    width: 130px;
+}
+
+.Homeicon {
+    height: 20px;
+    width: 20px;
+    margin-left: 2px;
+}
+
+.Home {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.d1 {
+
+    background-color: rgba(255, 255, 255, 0.105);
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.d2 {
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.d3 {
+    border-radius: 10px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.Searchicon {
+    height: 20px;
+    width: 20px;
+    margin-top: 18px;
+    margin-left: 2px;
+}
+
+.Search {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.Yourlibraryicon {
+    height: 20px;
+    width: 20px;
+    margin-top: 18px;
+    margin-left: 2px;
+}
+
+.Yourlibrary {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.Createicon {
+    height: 20px;
+    width: 22px;
+    margin-top: 18px;
+    margin-left: 2px;
+}
+
+.Create {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.LikedSongsicon {
+    height: 20px;
+    width: 22px;
+    margin-top: 14px;
+    margin-left: 2px;
+}
+
+.LikedSongs {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.c1 {
+    color: whitesmoke;
+}
+
+.installicon {
+    height: 20px;
+    width: 20px;
+    margin-top: 18px;
+    margin-left: 2px;
+}
+
+.install {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.YourEpisodesicon {
+    height: 18px;
+    width: 18px;
+    margin-top: 18px;
+    margin-left: 2px;
+}
+
+.Yourepisodes {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.goodmorning {
+    color: whitesmoke;
+    margin-top: -15px;
+    font-size: 25px;
+}
+
+.User {
+    margin-left: 1150px;
+    margin-top: -305px;
+    height: 5%;
+}
+
+.i1 {
+    margin-left: 15px;
+    height: 10%;
+    background-color: rgb(78, 76, 76);
+    display: flex;
+    align-items: center;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.img1 {
+    height: 80px;
+}
+
+.likedsongs {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+.contenar3 {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.i2 {
+    border-radius: 3px;
+    margin-left: 15px;
+    height: 10%;
+    background-color: rgb(78, 76, 76);
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.img2 {
+    height: 80px;
+}
+
+.NeffexPlaylist {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+
+}
+
+.i3 {
+    border-radius: 3px;
+    margin-left: 15px;
+    height: 10%;
+    background-color: rgb(78, 76, 76);
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.img3 {
+    height: 80px;
+}
+
+.KDA {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+
+}
+
+.i4 {
+    border-radius: 3px;
+    margin-left: 15px;
+    height: 10%;
+    background-color: rgb(78, 76, 76);
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.Likedsongs {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+.img4 {
+    height: 80px;
+}
+
+.container4 {
+    margin-left: 45px;
+}
+
+.i5 {
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 3px;
+    margin-left: 15px;
+    height: 10%;
+    background-color: rgb(78, 76, 76);
+    display: flex;
+    align-items: center;
+    width: 300px;
+}
+
+.img5 {
+    height: 80px;
+
+}
+
+.DanceElectronixMix {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+
+}
+
+.Showsyoumightlike {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.v {
+    font-size: small;
+    color: gray;
+}
+
+.img6 {
+    height: 150px;
+}
+
+.Showsyoumightlikediv {
+    margin-left: 45px;
+}
+
+.container5 {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.i6 {
+    border: 2px solid black;
+    background-color: black;
+    height: 250px;
+    width: fit-content;
+    padding: 15px;
+}
+
+.WeaklyMotivatio {
+    color: whitesmoke;
+    margin-left: 2px;
+}
+
+.z1 {
+    color: gray;
+    margin-left: 2px;
+}
+
+.img7 {
+    height: 150px;
+}
+
+.i7 {
+    border: 2px solid black;
+    background-color: black;
+    height: 250px;
+    width: fit-content;
+    padding: 15px;
+
+}
+
+.Meditationself {
+    color: whitesmoke;
+    margin-left: 2px;
+}
+
+.z2 {
+    color: gray;
+    margin-left: 2px;
+
+}
+
+.img8 {
+    height: 150px;
+}
+
+.i8 {
+    border: 2px solid black;
+    background-color: black;
+    height: 250px;
+    width: fit-content;
+    padding: 15px;
+
+}
+
+.wordsbeyondact {
+    color: whitesmoke;
+    margin-left: 2px;
+}
+
+.z3 {
+    color: gray;
+    margin-left: 2px;
+
+}
+
+.img9 {
+    height: 150px;
+}
+
+.i9 {
+    border: 2px solid black;
+    background-color: black;
+    height: 250px;
+    width: fit-content;
+    padding: 15px;
+
+}
+
+.wordsbeyondact {
+    color: whitesmoke;
+    margin-left: 2px;
+}
+
+.z4 {
+    color: gray;
+    margin-left: 2px;
+
+}
+
+.img10 {
+    height: 150px;
+}
+
+.i10 {
+    border: 2px solid black;
+    background-color: black;
+    height: 250px;
+
+
+}
+
+.wordsbeyondact {
+    color: whitesmoke;
+    margin-left: 2px;
+}
+
+.z5 {
+    color: gray;
+    margin-left: 2px;
+
+}
+
+.img11 {
+    height: 150px;
+}
+
+.i11 {
+    border: 2px solid black;
+    background-color: black;
+    height: 250px;
+    width: fit-content;
+    padding: 15px;
+
+}
+
+.wordsbeyondact {
+    color: whitesmoke;
+    margin-left: 2px;
+}
+
+.z6 {
+    color: gray;
+    margin-left: 2px;
+
+}
+
+.y1 {
+    border: 2px solid black;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+}
+
+.y2 {
+    display: flex;
+}
+
+.DremingOn {
+    margin-top: 20px;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.M {
+    margin-top: 40px;
+    margin-left: -60px;
+    color: whitesmoke;
+    font-size: 10px;
+    color: gray;
+}
+
+.img12 {
+    height: 75px;
+}
+
+.img13 {
+    height: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.img14 {
+    height: 60px;
+    width: 550px;
+    margin-left: 291px;
+}
+
+.img15 {
+    width: 280px;
+    height: 33px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
